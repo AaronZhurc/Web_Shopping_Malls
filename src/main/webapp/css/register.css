@@ -1,0 +1,292 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#head {
+	height: 90px;
+	position: relative;
+}
+
+#logo {
+	position: absolute;
+	left: 190px;
+	top: 15px;
+}
+
+#licon {
+	position: absolute;
+	left: 380px;
+	top: 40px;
+	font-size: 20px;
+}
+
+#has {
+	color: silver;
+	position: absolute;
+	right: 190px;
+	bottom: 2px;
+	font-size: 16px;
+	line-height: 40px;
+}
+
+#head a {
+	color: rgb(228, 57, 60);
+	text-decoration: none;
+}
+
+#mid {
+	height: 580px;
+	position: relative;
+	border-style: solid none none none;
+	border-color: silver;
+	border-width: 1px;
+}
+
+.input {
+	border: silver 1px solid;
+	height: 60px;
+	width: 400px;
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+}
+
+#phone {
+	top: 20px;
+}
+
+#phone p {
+	line-height: 60px;
+	position: absolute;
+	left: 20px;
+}
+
+#phone input {
+	border: 0 none;
+	position: absolute;
+	height: 50px;
+	width: 270px;
+	left: 110px;
+	top: 50%;
+	margin-top: -25px;
+}
+
+#code {
+	top: 380px;
+}
+
+#code p {
+	line-height: 60px;
+	position: absolute;
+	left: 20px;
+}
+
+#code input {
+	border: 0 none;
+	position: absolute;
+	height: 50px;
+	width: 160px;
+	left: 110px;
+	top: 50%;
+	margin-top: -25px;
+}
+
+#code div {
+	position: absolute;
+	right: 0;
+	border-style: none none none solid;
+	border-color: silver;
+	border-width: 1px;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#user {
+	top: 110px;
+}
+
+#user p {
+	line-height: 60px;
+	position: absolute;
+	left: 20px;
+}
+
+#user input {
+	border: 0 none;
+	position: absolute;
+	height: 50px;
+	width: 270px;
+	left: 110px;
+	top: 50%;
+	margin-top: -25px;
+}
+
+#pass {
+	top: 200px;
+}
+
+#pass p {
+	line-height: 60px;
+	position: absolute;
+	left: 20px;
+}
+
+#pass input {
+	border: 0 none;
+	position: absolute;
+	height: 50px;
+	width: 270px;
+	left: 110px;
+	top: 50%;
+	margin-top: -25px;
+}
+
+#pass2 {
+	top: 290px;
+}
+
+#pass2 p {
+	line-height: 60px;
+	position: absolute;
+	left: 20px;
+}
+
+#pass2 input {
+	border: 0 none;
+	position: absolute;
+	height: 50px;
+	width: 270px;
+	left: 110px;
+	top: 50%;
+	margin-top: -25px;
+}
+
+#check {
+	height: auto;
+	width: 400px;
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	top: 470px;
+}
+
+#check a {
+	color: darkblue;
+	text-decoration: none;
+}
+
+#regis {
+	background-color: rgb(228, 57, 60);
+	height: 60px;
+	width: 400px;
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	top: 507px;
+	text-align: center;
+	line-height: 60px;
+}
+
+#regis input {
+	background-color: transparent;
+	text-decoration: none;
+	outline-style: none;
+	border-style: none;
+	color: white;
+	cursor: pointer;
+	height: 60px;
+	width: 400px;
+}
+
+#regis:hover {
+	background-color: rgb(200, 22, 35);
+}
+
+#bottom {
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+#bottom a {
+	color: black;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 40px;
+}
+
+#bottom p {
+	font-size: 14px;
+}
+
+.warn {
+	visibility: hidden;
+	border: none;
+	position: absolute;
+	height: auto;
+	width: 400px;
+	margin-left: -200px;
+	font-size: 12px;
+	color: orange;
+	left: 50%;
+}
+
+#warn1 {
+	top: 87px;
+}
+
+#warn1 p {
+	position: absolute;
+	left: 20px;
+}
+
+#warn2 {
+	top: 267px;
+}
+
+#warn2 p {
+	position: absolute;
+	left: 20px;
+}
+
+#warn3 {
+	top: 357px;
+}
+
+#warn3 p {
+	position: absolute;
+	left: 20px;
+}
+
+#warn4 {
+	top: 177px;
+}
+
+#warn4 p {
+	position: absolute;
+	left: 20px;
+}
+#warn5 {
+	top: 447px;
+}
+
+#warn5 p {
+	position: absolute;
+	left: 20px;
+}
+
+#ccode {
+	width: 60px;
+	position: absolute;
+	height: 60px;
+}
+
+#code img {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}

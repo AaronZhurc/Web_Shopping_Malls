@@ -1,0 +1,287 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#head {
+	height: 90px;
+	position: relative;
+}
+
+#logo {
+	position: absolute;
+	left: 190px;
+	top: 15px;
+}
+
+#licon {
+	position: absolute;
+	left: 380px;
+	top: 40px;
+}
+
+#qlogo{
+	display: inline-block;
+	width: 18px;
+	height: 14px;
+	margin: 0 5px;
+	vertical-align: middle;
+}
+
+#quest {
+	color: silver;
+	position: absolute;
+	right: 190px;
+	bottom: 5px;
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 40px;
+}
+
+#warn {
+	background-color: cornsilk;
+	height: 40px;
+}
+
+.warnw {
+	color: chocolate;
+	font-size: 12px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#tipslogo{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+#mid {
+	background-color: rgb(255, 178, 30);
+	height: 475px;
+	position: relative;
+}
+
+#mid img {
+	position: absolute;
+	left: 100px;
+}
+
+#loginbox {
+	background-color: white;
+	position: absolute;
+	right: 190px;
+	top: 20px;
+	height: 400px;
+	width: 350px;
+}
+
+.slogin {
+	position: relative;
+	height: 40px;
+	width: 173px;
+	text-align: center;
+	float: left;
+	border-style: hidden dotted solid;
+	border-color: silver;
+	border-width: 1px;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: 200;
+	line-height: 40px;
+	display: block;
+	color: gray;
+}
+
+.slogin:hover {
+	color: rgb(228, 57, 60);
+	cursor: pointer;
+}
+
+#lmid {
+	height: 245px;
+	position: relative;
+	top: 40px;
+}
+
+.input{
+	float: left;
+	height: 38px;
+	width: 272px;
+}
+#dusername{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	height: 38px;
+	width: auto;
+}
+#dpassword{
+	position: absolute;
+	top: 80px;
+	left: 20px;
+	height: 38px;
+	width: auto;
+}
+#pusername{
+	float: left;
+	position: relative;
+	border: silver 1px solid;
+	width: 38px;
+	height: 38px;
+	background-image: url(/img/loginsprite.png);
+	background-position: 0 0;
+}
+#ppassword{
+	float: left;
+	position: relative;
+	border: silver 1px solid;
+	width: 38px;
+	height: 38px;
+	background-image: url(/img/loginsprite.png);
+	background-position: -48px 0px;
+}
+#text{
+	float: left;
+	position: relative;
+}
+#pass{
+	float: left;
+	position: relative;
+}
+
+#forgot {
+	position: absolute;
+	top: 140px;
+	right: 20px;
+	color: gray;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+#forgot:hover {
+	color: rgb(228, 57, 60);
+}
+
+#warn2 {
+	position: absolute;
+	top: 140px;
+	left: 20px;
+	font-size: 14px;
+}
+
+#loginb {
+	position: absolute;
+	background-color: rgb(228, 57, 60);
+	height: 40px;
+	width: 310px;
+	bottom: 20px;
+	left: 20px;
+	text-align: center;
+	line-height: 40px;
+}
+
+#loginb input {
+	background-color: transparent;
+	text-decoration: none;
+	outline-style: none;
+	border-style: none;
+	color: white;
+	cursor: pointer;
+	height: 40px;
+	width: 310px;
+}
+
+#loginb:hover {
+	background-color: rgb(200, 22, 35);
+}
+
+#lbottom {
+	position: absolute;
+	background-color: whitesmoke;
+	width: 350px;
+	height: 75px;
+	bottom: 0;
+}
+
+#lb {
+	position: absolute;
+	top: 0px;
+	left: 20px;
+}
+
+.lbl {
+	line-height: 75px;
+	color: gray;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.lbl:hover {
+	color: rgb(228, 57, 60);
+}
+
+#regis {
+	position: absolute;
+	top: 0px;
+	right: 20px;
+	color: rgb(228, 57, 60);
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 75px;
+}
+
+#lwarn {
+	background-color: cornsilk;
+	height: 40px;
+	color: chocolate;
+	font-size: 12px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+}
+
+#bottom {
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+#bottom a {
+	color: black;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 40px;
+}
+
+#bottom p {
+	font-size: 14px;
+}
+
+#qrlogin img {
+	position: absolute;
+	left: 100px;
+	top: 30px;
+}
+
+#qrloginb {
+	position: absolute;
+	left: 100px;
+	top: 200px;
+	line-height: 10px;
+	color: gray;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+#qrloginb a {
+	color: rgb(228, 57, 60);
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 10px;
+}

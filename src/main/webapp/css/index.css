@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#head{
+    height: 100px;
+    position: relative;
+}
+#logo{
+    position: absolute;
+    left: 190px;
+    top: 20px;
+}
+#search{
+    position: absolute;
+    left: 400px;
+    top:15px;
+    width: 490px;
+    height: 36px;
+    background-color:white;
+    border: 2px solid rgb(228, 57, 60);
+}
+#searcht{
+    position: absolute;
+    left: 20px;
+    top: 2px;
+    border: 0 none;
+    width: 380px;
+    height: 31px;
+}
+#searchbtn{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 58px;
+    height: 36px;
+    background-color:rgb(228, 57, 60);
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+}
+#searchsub{
+    color: white;
+    width: 58px;
+    height: 36px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#searchbtn:hover{
+    background-color: rgb(200, 22, 35);
+}
+#shopcart{
+    position: absolute;
+    right:190px;
+    top:15px;
+    width: 131px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    border: silver 1px solid;
+}
+#shopcart a{
+    color:rgb(228, 57, 60);
+    text-decoration: none;
+    width: 131px;
+    height: 36px;
+    display:block
+}
+#shopcart:hover{
+    border-color:rgb(228, 57, 60);
+}
+#menu{
+    position:absolute;
+    left: 400px;
+    bottom: 0;
+    width: 720px;
+    height: 40px;
+}
+#menu a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 40px;
+    display: block;
+    height: 40px;
+    float: left;
+    padding: 0 19px;
+}
+#menu a:hover{
+    color:rgb(228, 57, 60);
+}
+.userbanner{
+    position: absolute;
+    right: 190px;
+    bottom: 0;
+    height: 40px;
+    font-size: 12px;
+    width: auto;
+    line-height: 40px;
+}
+.userbanner a{
+    color: black;
+    text-decoration: none;
+    line-height: 40px;
+    cursor: pointer;
+}
+.userbanner a:hover{
+    color:rgb(228, 57, 60);
+}
+.userbanner div{
+    float: left;
+}
+#exit{
+    cursor: pointer;
+}
+#exit:hover{
+    color:rgb(228, 57, 60);
+}
+#mid{
+    background-color:rgb(244,244,244);
+    position: relative;
+    width: 100%;
+    float: inline-start;
+}
+#inner{
+    width: 1040px;
+    height: auto;
+    margin:0 auto;
+}
+.goods{
+    float: left;
+    margin: 10px;
+    position: relative;
+    height:300px;
+    width:240px;
+    background-color: white;
+    cursor: pointer;
+}
+.gooda{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 300px;
+    width: 240px;
+}
+.gooddiv{
+    height: 240px;
+    width: 240px;
+}
+.goodimg{
+    max-width: 100%;
+    max-height: 240px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    vertical-align:middle;
+}
+.goodname{
+    position: absolute;
+    top:250px;
+    left:5px;
+    width:226px;
+    color:black;
+    height:auto;
+    font-family: MS Sans Serif;
+}
+.goodprice{
+    position: absolute;
+    left:5px;
+    width: 226px;
+    height: auto;
+    bottom: 5px;
+    color:rgb(228, 57, 60);
+    font-size: 18px;
+    font-family: MS Sans Serif;
+}
+#side{
+    position: fixed;
+    right:40px;
+    top:110px;
+}
+#side div{
+    margin: 2px;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 60px;
+    text-align: center;
+}
+#side a{
+    display: block;
+    height: 60px;
+    width: 60px;
+    color: black;
+    text-decoration: none;
+}
+#totop{
+    color:rgb(228, 57, 60);
+    cursor: pointer;
+}
+
+#bottom {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#bottom a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+#bottom p {
+    font-size: 14px;
+}

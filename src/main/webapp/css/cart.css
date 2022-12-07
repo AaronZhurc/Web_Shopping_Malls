@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#head{
+    height: 100px;
+    position: relative;
+}
+#logo{
+    position: absolute;
+    left: 190px;
+    top: 15px;
+}
+#search{
+    position: absolute;
+    right: 190px;
+    top: 30px;
+    width: 490px;
+    height: 36px;
+    background-color:white;
+    border: 2px solid rgb(228, 57, 60);
+}
+#searcht{
+    position: absolute;
+    left: 20px;
+    top: 2px;
+    border: 0 none;
+    width: 380px;
+    height: 31px;
+}
+#searchbtn{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 58px;
+    height: 36px;
+    background-color:rgb(228, 57, 60);
+    text-align: center;
+    line-height: 36px;
+}
+#searchsub{
+    color: white;
+    width: 58px;
+    height: 36px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#searchbtn:hover{
+    background-color: rgb(200, 22, 35);
+}
+#mid{
+    border-top: solid 1px rgb(244,244,244);
+    border-bottom: solid 1px rgb(244,244,244);
+    background-color:white;
+    position: relative;
+    width: 100%;
+    float: inline-start;
+}
+#midc{
+    width: 900px;
+    margin: auto;
+}
+table{
+    margin: auto;
+    width: max-content;
+    width:900px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+table, th, td{
+    border-top: 1px solid  rgb(244,244,244);
+    border-bottom: 1px solid  rgb(244,244,244);
+    border-collapse:collapse;
+    text-align: center;
+}
+td{
+    height:50px;
+}
+#price{
+    height: 46px;
+    line-height: 46px;
+    width:auto;
+    float: left;
+    margin: 20px;
+}
+#buy{
+    background-color: #e4393c;
+    width: 150px;
+    height: 46px;
+    color: white;
+    font-size: 22px;
+    font-family: MS Sans Serif;
+    text-align: center;
+    line-height: 46px;
+    float: right;
+    margin: 20px;
+    cursor: pointer;
+}
+#buy:hover{
+    background-color: rgb(200, 22, 35);
+}
+#bottom{
+    padding-bottom: 30px;
+    text-align: center;
+}
+#bottom a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 40px;
+}
+#bottom p{
+    font-size: 14px;
+}
+#midn{
+    height: 300px;
+    text-align: center;
+    margin-top: 20px;
+}
+#back{
+    background-color: #e4393c;
+    width: 150px;
+    height: 46px;
+    color: white;
+    font-size: 22px;
+    font-family: MS Sans Serif;
+    text-align: center;
+    line-height: 46px;
+    float: right;
+    margin: 20px;
+    cursor: pointer;
+}
+#back a{
+    text-decoration: none;
+    color: white;
+}
+#back:hover{
+    background-color: rgb(200, 22, 35);
+}
